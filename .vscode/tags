@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Bullet	../bullet.py	/^class Bullet(Sprite):$/;"	kind:class	line:6
+Bullet	../game_functions.py	/^from bullet import Bullet$/;"	kind:namespace	line:5
+Group	../alien_invasion.py	/^from pygame.sprite import Group$/;"	kind:namespace	line:2
+Settings	../alien_invasion.py	/^from settings import Settings$/;"	kind:namespace	line:4
+Settings	../settings.py	/^class Settings():$/;"	kind:class	line:1
+Ship	../alien_invasion.py	/^from ship import Ship$/;"	kind:namespace	line:5
+Ship	../ship.py	/^class Ship():$/;"	kind:class	line:4
+Sprite	../bullet.py	/^from pygame.sprite import Sprite$/;"	kind:namespace	line:3
+__init__	../bullet.py	/^    def __init__(self, ai_settings, screen, ship):$/;"	kind:member	line:9
+__init__	../settings.py	/^    def __init__(self):$/;"	kind:member	line:4
+__init__	../ship.py	/^    def __init__(self, ai_settings, screen):$/;"	kind:member	line:6
+alien_invasion.py	../alien_invasion.py	1;"	kind:file	line:1
+blitme	../ship.py	/^    def blitme(self):$/;"	kind:member	line:39
+bullet.py	../bullet.py	1;"	kind:file	line:1
+check_events	../game_functions.py	/^def check_events(ai_settings, screen, ship, bullets):$/;"	kind:function	line:36
+check_keydown_events	../game_functions.py	/^def check_keydown_events(event, ai_settings, screen, ship, bullets):$/;"	kind:function	line:8
+check_keyup_events	../game_functions.py	/^def check_keyup_events(event, ship):$/;"	kind:function	line:27
+draw_bullet	../bullet.py	/^    def draw_bullet(self):$/;"	kind:member	line:33
+fire_bullet	../game_functions.py	/^def fire_bullet(ai_settings, screen, ship, bullets):$/;"	kind:function	line:19
+game_functions.py	../game_functions.py	1;"	kind:file	line:1
+gf	../alien_invasion.py	/^import game_functions as gf$/;"	kind:namespace	line:6
+pygame	../alien_invasion.py	/^import pygame$/;"	kind:namespace	line:1
+pygame	../bullet.py	/^import pygame$/;"	kind:namespace	line:1
+pygame	../game_functions.py	/^import pygame$/;"	kind:namespace	line:3
+pygame	../ship.py	/^import pygame$/;"	kind:namespace	line:1
+run_game	../alien_invasion.py	/^def run_game():$/;"	kind:function	line:9
+settings.py	../settings.py	1;"	kind:file	line:1
+ship.py	../ship.py	1;"	kind:file	line:1
+sys	../game_functions.py	/^import sys$/;"	kind:namespace	line:1
+update	../bullet.py	/^    def update(self):$/;"	kind:member	line:26
+update	../ship.py	/^    def update(self):$/;"	kind:member	line:27
+update_bullets	../game_functions.py	/^def update_bullets(bullets):$/;"	kind:function	line:60
+update_screen	../game_functions.py	/^def update_screen(ai_settings, screen, ship, bullets):$/;"	kind:function	line:48
